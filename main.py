@@ -78,8 +78,8 @@ while True:
         cy=int(y3+y4)//2
         cv2.circle(frame,(cx,cy),4,(255,0,255),-1)
         
-    cv2.line(frame,(3,cy1),(1018,cy1),(0,255,0),2)
-    cv2.line(frame,(5,cy2),(1019,cy2),(0,255,255),2)
+    cv2.line(frame,(3,194),(1018,194),(0,255,0),2)
+    cv2.line(frame,(5,220),(1019,220),(0,255,255),2)
    
 
     cv2.imshow("RGB", frame)
